@@ -66,7 +66,7 @@ The analysis provides insights into the characteristics and preferences of users
 3. Clone this repository to your local machine.
 4. Due to the large size of the dataset, the data folder contains a compressed zip file. Download the zip file from the repository and extract it locally. The data files required for the book search engine will be available after extraction.
 5. To run the book search engine and obtain book recommendations, execute the following Python scripts:  
-  csvPass.py, csvRatingPass.py, csvUsersPass.py, elastocsearch_import.py
+  csvPass.py, csvRatingPass.py, csvUsersPass.py, elasticsearch_import.py
 6. For further analysis using word embeddings, neural networks, and k-means clustering, refer to the respective scripts neural_network.py and k_means.py. Modify the input parameters as needed.
 
 **_Note:_** It is recommended to consider changing the word embeddings dimensions from 10 to a much bigger value, at least 10 times more, for improved performance and better representation of word semantics in the book search engine. Experiment with different dimensions to find the optimal setting that suits your specific use case.
