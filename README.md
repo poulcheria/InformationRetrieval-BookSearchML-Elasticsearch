@@ -41,14 +41,14 @@ For each of the 10 clusters, an analysis is performed to extract meaningful info
 The analysis provides insights into the characteristics and preferences of users in each cluster, allowing for targeted recommendations and personalization.
 
 ## Technologies Used
-  -Python
-  -Elasticsearch
-  -pandas
-  -gensim
-  -nltk
-  -tensorflow
-  -keras
-  -scikit-learn 
+  - Python
+  - Elasticsearch
+  - pandas
+  - gensim
+  - nltk
+  - tensorflow
+  - keras
+  - scikit-learn 
 
 ## Installation and Usage
 1. Install the required Python libraries using pip:
@@ -60,4 +60,4 @@ The analysis provides insights into the characteristics and preferences of users
   csvPass.py, csvRatingPass.py, csvUsersPass.py, elastocsearch_import.py
 6. For further analysis using word embeddings, neural networks, and k-means clustering, refer to the respective scripts neural_network.py and k_means.py. Modify the input parameters as needed.
 
-**_Note:_**: It is recommended to consider changing the word embeddings dimensions from 10 to a much bigger value, at least 10 times more, for improved performance and better representation of word semantics in the book search engine. Experiment with different dimensions to find the optimal setting that suits your specific use case.
+**_Note:_** It is recommended to consider changing the word embeddings dimensions from 10 to a much bigger value, at least 10 times more, for improved performance and better representation of word semantics in the book search engine. Experiment with different dimensions to find the optimal setting that suits your specific use case.
