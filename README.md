@@ -7,6 +7,15 @@ This repository showcases the implementation of a book search engine based on El
 3. **neural_network.py**:The neural network in this project is designed to predict user ratings based on book summaries using the Word2Vec model and Keras.
 4. **k_means**: The k-means program incorporates the wordembeddings function from **neural_network.py** to analyze a set of summaries. The resulting vectors obtained from the word embeddings process serve as input for the k-means clustering algorithm. In this implementation, the k-means algorithm is modified to utilize the **cosine similarity** as a distance metric.
 
+## ElasticSearch for User Similarity Ranking
+The code provided showcases the utilization of Elasticsearch to search for books and their associated ratings based on user input. It leverages the pandas library to handle CSV data and Elasticsearch to perform searches.
+**ElasticSearch Setup**:
+1. Before running the code, ensure that you have Elasticsearch installed and running locally.
+2 The data required for the search is stored in CSV files (BX-Users.csv, BX-Books.csv, and BX-Book-Ratings.csv) located in the "Data" folder.
+**Execution**:
+1. Execute the code and provide a search term to find books that match the query.
+2. Enter a unique identifier (UID) representing the user to find the average rating of books rated by that user.
+
 ## Neural Network for User Ratings Prediction
 1. **Word Embeddings using Word2Vec**  
 The wordembeddings function tokenizes, preprocesses, and filters the words in each book summary. It then employs the Word2Vec model from gensim to convert the words into 10-dimensional decimal vectors. The vectors representing each summary are summed by axes, resulting in a final decimal vector representation for each summary.
