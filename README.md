@@ -11,7 +11,9 @@ This repository showcases the implementation of a book search engine based on El
 The code provided showcases the utilization of Elasticsearch to search for books and their associated ratings based on user input. It leverages the pandas library to handle CSV data and Elasticsearch to perform searches.  
 **ElasticSearch Setup**:
 1. Before running the code, ensure that you have Elasticsearch installed and running locally.
-2. The data required for the search is stored in CSV files (BX-Users.csv, BX-Books.csv, and BX-Book-Ratings.csv) located in the "Data" folder.  
+2. The data required for the search is stored in CSV files (BX-Users.csv, BX-Books.csv, and BX-Book-Ratings.csv) located in the "Data" folder.
+
+    
 **Execution**:
 1. Execute the code and provide a search term to find books that match the query.
 2. Enter a unique identifier (UID) representing the user to find the average rating of books rated by that user.
